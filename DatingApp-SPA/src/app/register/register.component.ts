@@ -22,6 +22,7 @@ this.authService.register(this.model)
   this.alertify.success('registration successful');
 }, error => {
   this.alertify.error(error);
+  
 });
 
   }
